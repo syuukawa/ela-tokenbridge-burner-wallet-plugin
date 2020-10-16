@@ -6,10 +6,17 @@ import HomeStakeMediatorAbi from '../abis/HomeStakeMediatorAbi'
 import { fromWei, toBN } from 'web3-utils'
 import { sUSD, xsUSD } from '../index'
 
+// kosol
+// // Mediator contract address at the Sokol
+// const homeMediatorAddress = '0x5b0d153ED6404a02C885EBE864C21C22996e289D'
+// // Mediator contract at the Ethereum Kovan
+// const foreignMediatorAddress = '0x67Fe43faDf03aC43C48B9743Ba691Cc40839132e'
+
+// ela
 // Mediator contract address at the Sokol
-const homeMediatorAddress = '0x3F9ffAF637902a773Ce4e97FFbA865d5024365D4'
+const homeMediatorAddress = '0x7C8419cD3C7487408F6c545f7422d7d9E6e7e725'
 // Mediator contract at the Ethereum Kovan
-const foreignMediatorAddress = '0xFC18Acb2Fe87943d91e1a468da02C07E4406E6A2'
+const foreignMediatorAddress = '0xd267C0Ff3ff12622c8470E05b61a724201536c73'
 
 export default class StakeBridge extends Mediator {
   constructor() {
